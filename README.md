@@ -21,7 +21,7 @@ portfolio/ <br>
   │ │ └── botao_enviar.js <br>
 
 ## Tecnologias Usadas:
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 - GitHub Pages
