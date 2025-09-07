@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../view/styles.css" />
+    <link rel="icon" type="image/png" href="../view/images/portfolio.png" />
+  </head>
+  <body>
+    <div class="particulas"></div>
+
+    <header class="banner"></header>
+
+    <nav class="navegacao">
+      <ul class="menu">
+        <li><a href="#inicio" class="menu-link">Início</a></li>
+        <li><a href="#sobre" class="menu-link">Sobre Mim</a></li>
+        <li><a href="#projetos" class="menu-link">Projetos</a></li>
+        <li><a href="#contato" class="menu-link">Contato</a></li>
+      </ul>
+    </nav>
+
+    <h1></h1>
+
+    <main id="inicio" class="cabecalho">
+      <img src="../view/images/foto-perfil.jpg" class="foto-perfil" alt="Foto de Perfil">
+        <h1>
+          Olá, me chamo Guilherme Miguel.
+        </h1>
+        <p class="cabecalho-descricao">
+          Desenvolvedor Back-End | Python | PostGreSQL | VBA | JavaScript
+        </p>
+    </main>
+
+    <section id="sobre" class="sobre">
+      <h2 class="sobre-titulo">Sobre Mim</h2>
+      <div class="sobre-conteudo">
+        <p class="sobre-texto">
+          Sou um desenvolvedor Back-End com experiência em Python, PostGreSQL,
+          VBA e JavaScript. Tenho paixão por criar automações e serviços
+          escaláveis. Estou sempre em busca de aprimorar minhas habilidades e
+          aprender novas tecnologias, atualmente estou em busca da minha
+          primeira oportunidade na área de desenvolvedor.
+        </p>
+      </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+
+      <h2 class="projetos-titulo">Meus Projetos</h2>
+
+      <div class="projetos-conteudo">
+
+        <div class="projeto-card">
+          <div class="caixa-textos-projeto">
+            <h3 class="projeto-info">API de Roteirização de mapas</h3>
+            <p class="projeto-descricao">
+              API Desenvolvida em Python que utiliza a biblioteca FastAPI, Folium, OSMR para identificação das coordenadas e roteirizar as mesmas com a melhor rota posssível.
+            </p>
+          </div>
+        </div>
+
+        <div class="projeto-card">
+          <div class="caixa-textos-projeto">
+            <h3 class="projeto-info">Software para o banco de dados</h3>
+            <p class="projeto-descricao">
+              Desenvolvido um software em Python que integra Pandas, SQLAlchemy, PostgreSQL e Tkinter para manipulação e subir as informações para o banco de dados PostgreSQL.
+            </p>
+          </div>
+        </div>
+
+        <div class="projeto-card">
+          <div class="caixa-textos-projeto">
+            <h3 class="pprojeto-info">Automação de Processos com VBA</h3>
+            <p class="projeto-descricao">
+              
+            </p>
+          </div>
+        </div>
+        
+      </div>
+
+      <section id="contato" class="contato">
+        <h2 class="contato-titulo">Entre em Contato pelo E-mail</h2>
+
+        <form class="contato-formulario" id="formulario" onsubmit="return enviarFormulario()">
+          <div class = "grupo-form">
+            <input placeholder="Nome" class="campo-form" id="nome">
+          </div>
+
+          <div class="grupo-form">
+              <textarea class="campo-form" placeholder="Digite sua mensagem" id="mensagem" rows="4"></textarea>
+          </div>
+
+          <button type="submit" class="botao-form">Enviar</button>
+        </form>
+      </section>
+
+    <!-- <footer>
+      <p>
+        Desenvolvido por Guilherme Miguel |
+        <a
+          href="https://github.com/Lyaker"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+      </p>
+    </footer> -->
+
+    <script src="../model/botao_enviar.js"></script>
+
+  </body>
+</html>
