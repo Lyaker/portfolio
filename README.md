@@ -6,7 +6,7 @@ O site está hospedado no **GitHub Pages** e utiliza HTML, CSS e JavaScript puro
 ---
 
 O portfólio está online em:  
-[[https://lyaker.github.io/portfolio/](https://lyaker.github.io/portfolio/)](https://guilherme-miguel9.github.io/portfolio/)
+https://guilherme-miguel9.github.io/portfolio/
 
 ---
 
